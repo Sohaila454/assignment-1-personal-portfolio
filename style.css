@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #F4F7FB;
+}
+.clear-fix{
+    clear: both;
+}
+/*Colors*/
+.bg-darkblue{
+     background-color: #18487B;
+}
+.color-gray{
+color:rgb(209, 206, 206);
+}
+.color-white{
+    color:white;
+}
+.color-steelblue{
+    color: #6A92BD;
+}
+.bg-white{
+    background-color: #ffffff;
+}
+.color-darkblue{
+    color:#18487B;
+}
+
+/*header*/
+.container{
+    width: 50%;
+    margin: auto;
+   
+}
+.border-radius{
+    border-radius: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+.header a,.contact a{
+    background-color: #2B5685; 
+    border-radius: 15px;
+    text-decoration: none; 
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.p-10{
+    padding: 10px;
+}
+.my-15{
+    margin-block: 15px;
+}
+/*about*/
+.pb-10{
+    padding-bottom: 10px;
+}
+.border-b{
+   border-bottom: 1px solid rgb(238, 231, 231);
+}
+
+.about  img{
+    width: 20%;
+    border-radius: 50%;
+    
+}
+.float-r{
+    float: right;
+}
+.infro{
+    width: 75%;
+}
+.about .infro button{
+    border: none;
+}
+.card-skill{
+    background-color: #e8e9eb;
+    float: left;
+    width: 24%;
+    margin-left: 1%;
+}
+
+/*experience*/
+.experience .work{
+     background-color: #F9FCFF;
+     margin-bottom: 15px;
+     border-left: #5b8dc2 5px solid;
+}
+.experience .work img{
+    width: 10%;
+   padding-top: 30px;
+}
+.experience .details-work{
+    width: 85%;
+   
+}
+.experience h5{
+    font-size: 20px;
+}
+.m-block{
+    margin-block: 5px;
+}
+.experience h6{
+    font-size: 15px;
+
+}
+.experience p{
+    color: #4b4949;
+}
+
+/*contact*/
+.contact a{
+    border: 1px solid #aaa;
+    padding: 10px 15px;
+}
+
+/*footer*/
+.footer .container{
+    padding: 2px;
+}
+
+
+
+
+
